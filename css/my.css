@@ -1,0 +1,67 @@
+#login_form {
+	width: 503px;
+	height: 409px;
+	position: absolute;
+	left: calc(50% - 250px);
+	top: calc(50% - 200px);
+	background: url('../img/login_bg.png') no-repeat center center transparent;
+}
+
+#login_form input {
+	width: 295px;
+	height: 28px;
+	text-align: center;
+	background: none;
+	border: none;
+	color: #DDDDDD;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#login_form input:focus {
+	border:none;
+	outline-offset: 0;
+}
+
+#username {
+	margin-left: 101px;
+	margin-top: 163px;
+
+}
+
+#mailname {
+	margin-left: 101px;
+	margin-top: 46px;
+}
+
+#login_btn {
+	width: 225px;
+	height: 81px;
+	margin-left: 139px;
+	margin-top: 25px;
+	background: url('../img/login_btn.png') no-repeat left top;
+	border: none;
+	cursor: pointer;
+}
+#login_btn:hover {
+	background: url('../img/login_overbtn.png') no-repeat left top;
+}
+
+
+.popup {
+    box-sizing: border-box;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+.popup-2 {
+    position: absolute;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transform-style: preserve-3d;
+	  left:20%; top:0% !important;
+	  transform: translateZ(100px) !important;
+}
+.popup-2 img {
+	  overflow: hidden;
+}
